@@ -1,6 +1,7 @@
 #ifndef PPI_H
 #define PPI_H
 #include <stdint.h>
+#include "gpiote.h"
 
 #define PPI ((NRF_PPI_REG*)0x4001F000)
 
