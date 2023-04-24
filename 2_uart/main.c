@@ -27,11 +27,11 @@ int main(void) {
         if (!(GPIO0->IN & (1 << 23))) {     // BTN B pressed
             uart_send('B');
             // iprintf("sending: %c", 'B');
-            gpio_lights_on();
+            //gpio_lights_on();
         }
         else if (!(GPIO0->IN & (1 << 14))) {    // BTN A pressed
             uart_send('A');
-            gpio_lights_off();
+            //gpio_lights_off();
         }
 
         sleep = 10000;
