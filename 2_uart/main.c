@@ -46,8 +46,10 @@ int main(void) {
             else if (!lightsOn) {
                 gpio_lights_on();
                 lightsOn = 1;
+                iprintf("The average grade in TTK%d was in %d and %d: %c\n\r",4235,2019,2018,'C');
             }
         }
+
 
     }
 
