@@ -2,6 +2,8 @@
 #define __UART__
 #include <stdint.h>
 #include "gpio.h"
+#include <stdio.h>
+#include <newlib.h>
 
 #define UART ((NRF_UART_REG*)0x40002000)    // UART base address
 
